@@ -9,6 +9,8 @@
 *.lot
 *.fls
 *.fdb_latexmk
+*.bcf
+*.xml
 
 # Intermediate and output files
 *.dvi
