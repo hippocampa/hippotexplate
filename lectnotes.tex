@@ -1,0 +1,56 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{geometry}           % For page layout and margins
+\usepackage{fancyhdr}           % For custom headers and footers
+\usepackage{graphicx}           % For including images
+\usepackage{amsmath}            % For advanced math typesetting
+\usepackage{hyperref}           % For clickable links and cross-references
+\usepackage{listings}           % For code listings
+\usepackage{algorithm}          % For writing algorithms
+\usepackage{algpseudocode}      % For writing pseudocode
+\usepackage{tikz}               % For creating diagrams and visualizations
+\usepackage{pgfplots}           % For creating plots and graphs
+\usepackage{booktabs}           % For professional-looking tables
+\usepackage{multirow}           % For tables with merged rows
+\usepackage{xcolor}             % For colored text and backgrounds
+
+\usepackage{siunitx}            % For typesetting units and numbers
+\usepackage{tcolorbox}          % For creating colored boxes (e.g., for theorems or important notes)
+\usepackage{microtype}          % For improved typography and spacing
+\usepackage{biblatex}           % For bibliography management (if using BibTeX)
+\usepackage{mathtools}          % Extended math tools, including better matrix support
+\usepackage{amsthm}             % For defining theorem-like environments
+\usepackage{complexity}         % For typesetting complexity classes (e.g., P, NP)
+\usepackage{xcolor}  % For colored text
+\usepackage{titling} % For title formatting
+
+\geometry{
+	left=3cm,
+	top=3cm,
+	bottom=3cm,
+	right=3cm,
+	}	
+	
+% Custom title command
+\newcommand{\customtitle}[2]{%
+	\begin{center}
+		{\huge\bfseries#1\par}
+		\vspace{0.5em}
+		{\large#2\par}
+	\end{center}
+	\vspace{1em}
+}	
+	
+\begin{document}
+	\pagestyle{fancy}
+	\fancyhead{} % clear all header fields
+	\fancyhead[L]{\textbf{Nama MK}}
+	\fancyhead[R]{Week 1}
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[R]{\thepage}
+	\fancyfoot[L]{\href{mailto:teguh@stikom-bali.ac.id}{teguh@stikom-bali.ac.id}}
+	
+	\customtitle{This is a title}{This is a subtitle}
+	
+	\section*{First Section}
+	This is the first section
+\end{document}
